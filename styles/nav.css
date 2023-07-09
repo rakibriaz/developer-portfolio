@@ -8,6 +8,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 
 nav > ul{
@@ -45,4 +46,20 @@ line-height: normal;
     font-style: normal;
     font-weight: 700;
     padding: 18px 35px;
+}
+
+/* This is header section */
+.header{
+    background-color: white;
+}
+
+.bannar{
+    padding: 200px 100px 100px 200px;
+    display: flex;
+    align-items: center;
+}
+
+.bannar-img{
+    width: 500px;
+    height: 550px;
 }
