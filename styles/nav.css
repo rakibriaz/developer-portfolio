@@ -51,15 +51,76 @@ line-height: normal;
 /* This is header section */
 .header{
     background-color: white;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .bannar{
-    padding: 200px 100px 100px 200px;
+    padding: 200px 50px 0px 200px;
     display: flex;
-    align-items: center;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.bannar-contant{
+    max-width: 500 px;
 }
 
 .bannar-img{
     width: 500px;
     height: 550px;
+    /* margin-right: 10px; */
+}
+
+.first-gretter{
+    color: var(--dark-02, #474747);
+    font-size: 40 px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.sceond-gretter{
+    color: var(--dark-01, #181818);
+    font-size: 50 px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 0px;
+}
+
+.bannar-paragraph{
+    color: var(--dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 2000;
+    margin-bottom: 20px;
+    
+    margin-top: 0px;
+}
+
+/* This is about section */
+.about{
+    /* margin: 230px; */
+    border-radius: 10px;
+    background: #FFF8F3;
+    padding: 200px;
+}
+
+.about-title{
+    color: var(--dark-01, #181818);
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.about-contain{
+    color: var(--dark-03, #757575);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
